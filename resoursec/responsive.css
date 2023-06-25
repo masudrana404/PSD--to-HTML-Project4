@@ -1,0 +1,265 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+@media only screen and (max-width: 1024px){
+  .header_hero_area {
+    width: 100%;
+    text-align: center;
+  }
+  .header_hero_area h1 {
+    color: #f67c92;
+    text-shadow: 1px 1px 1px #000;
+  }
+  .header_hero_area .square {
+    margin: 2rem auto;
+    -webkit-box-shadow: 0px 1px 2px #000;
+            box-shadow: 0px 1px 2px #000;
+  }
+
+  .header_hero_area .line ul {
+    margin-top: 5rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .header_hero_area .line ul li{
+    margin-top: 0;
+    -webkit-box-shadow: 0px 1px 2px #000;
+    box-shadow: 0px 1px 2px #000;
+  }
+  .header_hero_area .btn {
+    color: #000;
+  }
+
+  .header_text p {
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #000;
+    font-size: 1.5rem;
+  }
+
+  #about {
+    margin-top: 0;
+  }
+  .about_col_inner .line {
+    margin: 3rem 0;
+  }
+}
+
+@media only screen and (max-width: 980px){
+  .header_hero_area .btn {
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+  }
+  .about_col {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+  }
+  .about_col img {
+    width: 27rem;
+  }
+  .about_row .about_col .about_col_inner {
+    text-align: right;
+    margin-right: 2rem;
+  }
+  .card_col {
+    -ms-flex-preferred-size: 47%;
+    flex-basis: 47%;
+  }
+  .card_col:nth-child(3){
+    margin-top: 5rem;
+  }
+  .contact_row {
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: end;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+  }
+  .contact_col img {
+    width: 25rem;
+  }
+  .footer_row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .footer_row .footer_left_col {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+}
+@media only screen and (max-width: 768px){
+  .course_col_info .line {
+    margin: 3rem 0;
+  }
+}
+@media only screen and (max-width: 480px){
+
+  .container {
+    max-width: 75%;
+  }
+  .header_area {
+    background-image: none;
+    display: inline;
+  }
+  .header_hero_area h1 {
+    color: #f67c92;
+    text-shadow: none;
+  }
+  .header_hero_area .square {
+    margin: 2rem auto;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+  .header_text p {
+    color: #000;
+    text-shadow: none;
+  }
+  .header_hero_area .btn {
+    color: #000;
+    text-shadow: none;
+    padding: .8rem 1rem;
+  }
+  #portfolio .btn, #course .btn {
+    padding: 1rem .9rem;
+  }
+  .footer_btn {
+    padding: 1rem;
+  }
+  .menu_btn {
+    position: fixed;
+    top: 1.25rem;
+    right: 1.5rem;
+    z-index: 200;
+  }
+  .header_hero_area .line ul li {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+  .course_col {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+  }
+  .card_col {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+  }
+  .card_col:nth-child(2) {
+    margin-top: 5rem;
+  }
+  .about_col_inner p, .about_col_inner h2 {
+    margin: 0 0 0 3rem;
+  }
+  .form_button button {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    padding: 1rem;
+    margin-top: .5rem;
+  }
+  .form_button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: unset;
+    -ms-flex-align: unset;
+    align-items: unset;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  /* .form_button {
+    flex-basis: 100%;
+  } */
+  .footer_row .footer_left_col {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer_right_col_inner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .footer_right_col_inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+  }
+  .footer_row .footer_right_col {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+  .footer_right_col_inner .email_box, .footer_logo_box {
+    margin-top: 1rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    text-align: center;
+    -webkit-box-align:center;
+    -ms-flex-align:center;
+    align-items:center;
+  }
+  .footer_left_col_inner {
+    margin-bottom: 1rem;
+  }
+  .site_bar ul li a img {
+    width: 1.2rem;
+    display: block;
+  }
+  .container {
+    width: 70%;
+  }
+}
